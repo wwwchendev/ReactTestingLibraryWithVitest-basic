@@ -65,14 +65,14 @@ test('Checkbox點擊流程', () => {
 })
 
 
-// describe('kebabCaseToTitleCase', () => {
-//   test('沒有連字符號', () => {
-//     expect(kebabCaseToTitleCase('red')).toBe('Red');
-//   });
-//   test('有1個連字符號', () => {
-//     expect(kebabCaseToTitleCase('midnight-blue')).toBe('Midnight Blue');
-//   });
-//   test('有多個連字符號', () => {
-//     expect(kebabCaseToTitleCase('medium-violet-red')).toBe('Medium Violet Red');
-//   });
-// })
+describe('從連字符的命名風格改為格式化標題', () => {
+  test('沒有連字符號', () => {
+    expect(kebabCaseToTitleCase('red')).toBe('Red');
+  });
+  test('有1個連字符號', () => {
+    expect(kebabCaseToTitleCase('midnight-blue')).toBe('Midnight Blue');
+  });
+  test('有多個連字符號', () => {
+    expect(kebabCaseToTitleCase('medium-violet-red')).toBe('Medium Violet Red');
+  });
+})
