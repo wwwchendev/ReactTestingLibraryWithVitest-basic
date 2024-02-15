@@ -1,3 +1,8 @@
+button:disabled {
+  background: rgb(153, 153, 153);
+  color: #333;
+}
+
 .red {
   background-color: rgb(255, 0, 0)
 }
@@ -6,7 +11,10 @@
   background-color: rgb(0, 0, 255);
 }
 
-button:disabled {
-  background: rgb(153, 153, 153);
-  color: #333;
+.medium-violet-red {
+  background-color: mediumvioletred;
+}
+
+.midnight-blue {
+  background-color: midnightblue
 }

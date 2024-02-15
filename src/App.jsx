@@ -4,11 +4,13 @@ import './App.css'
 
 function App() {
   const [btnDisabled, setBtnDisabled] = useState(false);
-  const [btnColor, setBtnColor] = useState('red');
-  const nextColor = btnColor === 'red' ? 'blue' : 'red';
+  const [btnColor, setBtnColor] = useState('medium-violet-red');
+  const nextColor = btnColor === 'midnight-blue' ? 'medium-violet-red' : 'midnight-blue';
   const colorLabels = {
-    red: '紅色',
-    blue: '藍色'
+    'red': '紅色',
+    'blue': '藍色',
+    'medium-violet-red': '紫紅色',
+    'midnight-blue': '午夜藍色'
   };
 
   return (
